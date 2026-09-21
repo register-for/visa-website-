@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Canada Visa Information & Support</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #d71920;
+      color: white;
+      padding: 18px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero .small-title {
+      color: #d71920;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      color: #555;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d71920;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 32px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #d71920;
+      margin-bottom: 12px;
+    }
+
+    .form-box {
+      background: white;
+      max-width: 700px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .notice {
+      background: #fff3cd;
+      border-left: 5px solid #d71920;
+      padding: 15px;
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 14px;
+      background: #d71920;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #b9151b;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 700px) {
+      .header-container {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .services {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">🇨🇦 Canada Visa Support</div>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#application">Application</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="home" class="hero">
+    <div class="small-title">CANADA VISA INFORMATION</div>
+
+    <h1>Your Journey to Canada Starts Here</h1>
+
+    <p>
+      Get general information and independent support
+      for your Canada visa application journey.
+    </p>
+
+    <a href="#application" class="button">Start Application</a>
+  </div>
+
+  <section id="services">
+    <h2>Visa Information</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Visitor Visa</h3>
+        <p>
+          General information and support for visitors
+          planning to travel to Canada.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Study Permit</h3>
+        <p>
+          General information for students interested
+          in studying in Canada.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Work Permit</h3>
+        <p>
+          General information about working in Canada
+          and the application process.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="application">
+    <h2>Application Form</h2>
+
+    <div class="form-box">
+
+      <div class="notice">
+        <strong>Important:</strong>
+        This is an independent information and support service.
+        Do not enter your passport number, bank information,
+        passwords, or other highly sensitive information.
+      </div>
+
+      <form id="applicationForm">
+
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+        >
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+        >
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+        >
+
+        <label for="service">Service</label>
+        <select
+          id="service"
+          name="service"
+          required
+        >
+          <option value="">Select a service</option>
+          <option value="Visitor Visa">Visitor Visa</option>
+          <option value="Study Permit">Study Permit</option>
+          <option value="Work Permit">Work Permit</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Tell us how we can help you..."
+        ></textarea>
+
+        <button type="submit">
+          Submit Application
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      We provide general information and independent support
+      for people preparing for their Canada visa application journey.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <p style="text-align:center;">
+      Email: Canadaxo290@gmail.com
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Canada Visa Information & Support</p>
+  </footer>
+
+</body>
+</html>
